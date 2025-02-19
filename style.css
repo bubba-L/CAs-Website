@@ -1,0 +1,64 @@
+body{
+    margin-top: 175px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #404040;
+    color: white;
+    font-family: Sriracha, sans-serif;
+}
+
+.sriracha-regular {
+    font-family: "Sriracha", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.mItem{
+    font-size: 40px;   
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    opacity: 25%;
+
+
+}
+.mItem:hover{
+    background-color: #242424;
+    border-radius: 10px;
+    opacity: 100%;
+}
+
+.mBar{
+    margin: 0;
+    padding: 0;
+    background-color:#181818;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.mBar:hover{
+    padding: 25px;
+}
+
+.imgBar{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 10px;
+}
+
+.centerTxt{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
