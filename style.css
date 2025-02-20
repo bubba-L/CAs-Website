@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     margin-top: 175px;
     margin-left: 0px;
@@ -64,6 +68,9 @@ a{
     margin-left: 100px;
     margin-right: 100px;
 }
+.indentTxt{
+    margin-left: 20px;
+}
 
 li{
     list-style-type: none;
@@ -72,4 +79,16 @@ li{
 
 .eventsP{
     padding-left: 20px;
+}
+
+.mainImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 20px;
+}
+
+strong{
+    font-size: 18px;
 }
